@@ -1,0 +1,9 @@
+#7)count number of characters
+
+word=input("Enter a word:")
+n=len(word)
+print(n)
+
+Output:
+Enter a word:arisu
+5

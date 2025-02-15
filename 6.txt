@@ -1,0 +1,14 @@
+#6)Paildrome or not
+
+x=input("Enter String:")
+w=""
+for i in x:
+    w=w+i
+if(x==w):
+    print("Palindrome")
+else:
+    print("not plaindrome")
+
+Output:
+Enter String:mom
+Palindrome

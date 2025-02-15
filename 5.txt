@@ -1,0 +1,18 @@
+#5)Factorial using recursions
+
+def fact(n):  
+    if n == 1:  
+        return 1  # Fixed 'I' to '1'
+    else:  
+        return n * fact(n - 1)  # Fixed variable names and syntax
+
+n = int(input("Enter the value: "))  
+
+if n > 0:  # Fixed condition (n should be positive for factorial)
+    print("Factorial =", fact(n))
+else:  
+    print("Factorial not possible")  # Fixed missing quotes and syntax
+
+Output:
+Enter the value: 5  
+Factorial = 120  
