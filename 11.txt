@@ -1,0 +1,31 @@
+# 11. Write a Python Program to Demonstrate Basic Array Characteristics Using NumPy.
+
+import numpy as np  
+
+array1 = np.array([2, 4, 9, 6, 5, 10, 3])  
+print(array1.ndim)  
+
+array2 = np.array([[2, 3, 4], [6, 7, 8]])  
+print(array2.size)  
+
+array3 = np.array([[1, 2, 3], [6, 7, 8]])  
+print(array3.shape)  
+
+array4 = np.array([6, 7, 8])  
+print(array4.dtype)  
+
+array5 = np.array([6, 7, 8, 10, 13])  
+print(array5.itemsize)  
+
+array6 = np.array([6, 7, 8])  
+print(array6.data)  
+
+'''
+output:-
+1
+6
+(2, 3)
+int32
+4
+<memory at 0x10934d8>
+'''
