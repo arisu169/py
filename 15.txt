@@ -1,0 +1,28 @@
+# 15.Write a Python Program to Demonstrate Unary Operators in NumPy.
+import numpy as np  
+
+arr = np.array([1, 2, 3, 4, 53])  
+
+plus_arr = +arr  
+minus_arr = -arr  
+bitwise_not_arr = ~arr  
+
+bool_arr = np.array([True, False, True, False])  
+logical_not_arr = np.logical_not(bool_arr)  
+
+print("Original array:", arr)  
+print("Unary plus:", plus_arr)  
+print("Unary minus:", minus_arr)  
+print("Bitwise NOT:", bitwise_not_arr)  
+print("Boolean array:", bool_arr)  
+print("Logical NOT:", logical_not_arr)  
+
+'''
+output:-
+Original array: [ 1  2  3  4 53]
+Unary plus: [ 1  2  3  4 53]
+Unary minus: [ -1  -2  -3  -4 -53]
+Bitwise NOT: [ -2  -3  -4  -5 -54]
+Boolean array: [ True False  True False]
+Logical NOT: [False  True False  True]
+'''
