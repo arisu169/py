@@ -1,0 +1,41 @@
+# 2. Write a Python Program to Design a Simple Calculator.
+def add(a, b):
+    print("Addition =", a + b)
+
+def sub(a, b):
+    print("Subtraction =", a - b)
+
+def mul(a, b):
+    print("Multiplication =", a * b)
+
+def div(a, b):
+    if b != 0:
+        print("Division =", a / b)
+    else:
+        print("Division by zero is not allowed")
+
+def rem(a, b):
+    if b != 0:
+        print("Remainder =", a % b)
+    else:
+        print("Modulo by zero is not allowed")
+
+a = int(input("Enter the value of a: "))
+b = int(input("Enter the value of b: "))
+
+add(a, b)
+sub(a, b)
+mul(a, b)
+div(a, b)
+rem(a, b)
+
+'''
+output:-
+Enter the value of a: 10
+Enter the value of b: 5
+Addition = 15
+Subtraction = 5
+Multiplication = 50
+Division = 2.0
+Remainder = 0
+'''
