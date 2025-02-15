@@ -1,0 +1,28 @@
+# 10. Write a Python Program to Demonstrate Working with Dictionaries
+
+cc = {"Germany": "Berlin", "Canada": "Ottawa", "England": "London"}  
+print(cc)  
+
+cc["Japan"] = "Tokyo"  
+del cc["Canada"]  
+
+my_dict = {'name': 'Alice', 'age': 25}  
+print(my_dict)  
+
+city = my_dict.get('City', 'Not found')  
+print(city)  
+
+remove_value = my_dict.pop('City', 'Key not found')  
+print(remove_value)  
+
+print(my_dict)  
+
+'''
+output:-
+
+{'Germany': 'Berlin', 'Canada': 'Ottawa', 'England': 'London'}
+{'name': 'Alice', 'age': 25}
+Not found
+Key not found
+{'name': 'Alice', 'age': 25}
+'''
