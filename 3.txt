@@ -5,9 +5,9 @@ t = num
 a = 0
 
 while t > 0:
-    r = t % 10  # Extract last digit
-    t = t // 10  # Remove last digit
-    a = a + (r ** len(str(num)))  # Add digit raised to power of total digits
+    r = t % 10
+    t = t // 10
+    a = a + (r ** len(str(num)))
 
 if a == num:
     print("Armstrong number")
