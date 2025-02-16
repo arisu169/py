@@ -1,13 +1,13 @@
 #6)Paildrome or not
 
-x=input("Enter String:")
-w=""
-for i in x:
-    w=w+i
-if(x==w):
+x = input("Enter String: ")
+w = x[::-1]
+
+if x == w:
     print("Palindrome")
 else:
-    print("not plaindrome")
+    print("Not Palindrome")
+
 
 Output:
 Enter String:mom
