@@ -14,21 +14,21 @@ def divide(x, y):
         return "Error! Division by zero."
     return x / y
 
-# Display menu
+
 print("Simple Calculator")
 print("1. Add")
 print("2. Subtract")
 print("3. Multiply")
 print("4. Divide")
 
-# Get user choice
+
 choice = input("Enter choice (1/2/3/4): ")
 
-# Get input numbers
+
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 
-# Perform operation
+
 if choice == '1':
     print(add(num1, num2))
 elif choice == '2':
