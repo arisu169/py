@@ -4,14 +4,13 @@ def fact(n):
     if n == 1:  
         return 1  # Fixed 'I' to '1'
     else:  
-        return n * fact(n - 1)  # Fixed variable names and syntax
-
+        return n * fact(n - 1)
 n = int(input("Enter the value: "))  
 
-if n > 0:  # Fixed condition (n should be positive for factorial)
+if n > 0:
     print("Factorial =", fact(n))
 else:  
-    print("Factorial not possible")  # Fixed missing quotes and syntax
+    print("Factorial not possible")
 
 Output:
 Enter the value: 5  
