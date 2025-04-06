@@ -1,0 +1,26 @@
+#16 Program to create dataframe with two dimensional list
+
+import pandas as pd
+
+arr = [['name', 'age', 'address'],
+       ['alice', 56, 'ecil'],
+       ['bob', 69, 'hyd'],
+       ['charlie', 23, 'tokyo']]
+
+# Use the first row as column names, and the rest as data
+df = pd.DataFrame(arr[1:], columns=arr[0])
+
+print(df)
+print(f'\nFirst two records:\n{df.head(2)}')
+
+#output
+
+      name  age address
+0    alice   56    ecil
+1      bob   69     hyd
+2  charlie   23   tokyo
+
+First two records:
+    name  age address
+0  alice   56    ecil
+1    bob   69     hyd

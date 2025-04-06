@@ -1,0 +1,30 @@
+#17 Creating DataFrame from dictionary of n-array lists
+
+import pandas as pd
+import numpy as np
+
+data = {
+    'A': np.array([1, 2, 3]),
+    'B': np.array([4, 5, 6]),
+    'C': np.array([7, 8, 9])
+}
+
+df = pd.DataFrame(data)
+
+print(df)
+
+print('Display Columns:', df.columns)
+print('Display second row:\n', df.iloc[1])
+
+#output
+
+   A  B  C
+0  1  4  7
+1  2  5  8
+2  3  6  9
+Display Columns: Index(['A', 'B', 'C'], dtype='object')
+Display second row:
+ A    2
+B    5
+C    8
+Name: 1, dtype: int64

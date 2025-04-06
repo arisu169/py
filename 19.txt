@@ -1,0 +1,17 @@
+#19 Program to iterate over rows in Pandas Dataframe
+
+import pandas as pd
+
+data = {'Name': ['Alice', 'Bob', 'Charlie'],
+        'Age': [25, 30, 35]}
+
+df = pd.DataFrame(data)
+
+for index, row in df.iterrows():
+    print(f"Index: {index}, Name: {row['Name']}, Age: {row['Age']}")
+
+#output
+
+Index: 0, Name: Alice, Age: 25
+Index: 1, Name: Bob, Age: 30
+Index: 2, Name: Charlie, Age: 35
