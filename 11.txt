@@ -19,13 +19,3 @@ print(array5.itemsize)
 
 array6 = np.array([6, 7, 8])  
 print(array6.data)  
-
-'''
-output:-
-1
-6
-(2, 3)
-int32
-4
-<memory at 0x10934d8>
-'''
