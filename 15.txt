@@ -15,14 +15,4 @@ print("Unary plus:", plus_arr)
 print("Unary minus:", minus_arr)  
 print("Bitwise NOT:", bitwise_not_arr)  
 print("Boolean array:", bool_arr)  
-print("Logical NOT:", logical_not_arr)  
-
-'''
-output:-
-Original array: [ 1  2  3  4 53]
-Unary plus: [ 1  2  3  4 53]
-Unary minus: [ -1  -2  -3  -4 -53]
-Bitwise NOT: [ -2  -3  -4  -5 -54]
-Boolean array: [ True False  True False]
-Logical NOT: [False  True False  True]
-'''
+print("Logical NOT:", logical_not_arr)
