@@ -12,15 +12,3 @@ df = pd.DataFrame(arr[1:], columns=arr[0])
 
 print(df)
 print(f'\nFirst two records:\n{df.head(2)}')
-
-#output
-
-      name  age address
-0    alice   56    ecil
-1      bob   69     hyd
-2  charlie   23   tokyo
-
-First two records:
-    name  age address
-0  alice   56    ecil
-1    bob   69     hyd
