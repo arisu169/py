@@ -1,41 +1,9 @@
 #18 Creating pandas DataFrame using list of tuples
 
 import pandas as pd
-
 data = [(1, 'Alice', 25), (2, 'Bob', 30), (3, 'Cherrlie', 35)]
-
 df = pd.DataFrame(data, columns=['ID', 'Name', 'Age'])
-
 print("The data is:\n", df)
-
 print("\nAge data is:\n", df['Age'])
-
 print()
-
 print(df.info())
-
-#Output
-
-The data is:
-    ID      Name  Age
-0   1     Alice   25
-1   2       Bob   30
-2   3  Cherrlie   35
-
-Age data is:
- 0    25
-1    30
-2    35
-Name: Age, dtype: int64
-
-<class 'pandas.core.frame.DataFrame'>
-RangeIndex: 3 entries, 0 to 2
-Data columns (total 3 columns):
- #   Column  Non-Null Count  Dtype 
----  ------  --------------  ----- 
- 0   ID      3 non-null      int64 
- 1   Name    3 non-null      object
- 2   Age     3 non-null      int64 
-dtypes: int64(2), object(1)
-memory usage: 204.0+ bytes
-None
