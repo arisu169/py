@@ -7,8 +7,3 @@ if x == w:
     print("Palindrome")
 else:
     print("Not Palindrome")
-
-
-Output:
-Enter String:mom
-Palindrome
