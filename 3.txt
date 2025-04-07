@@ -13,8 +13,3 @@ if a == num:
     print("Armstrong number")
 else:
     print("Not an Armstrong number")
-
-
-Output:
-Enter a number: 153
-Armstrong number
