@@ -7,9 +7,3 @@ for i in range(2, 11):  # Loop from 2 to 10
             c += 1
     if c == 2:  # A prime number has exactly two divisors: 1 and itself
         print(i)
-
-OUTPUT:
-2  
-3  
-5  
-7  
